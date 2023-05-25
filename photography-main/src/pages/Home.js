@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 // import images
-import WomanImg from '../img/home/jacob-with-camera.png';
+import JacobImg from '../img/home/jacob-with-camera.png';
 // import link
 import { Link } from 'react-router-dom';
 // import motion
@@ -26,7 +26,7 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '100%' }}
             transition={transition1}
-            className=' lg:flex absolute bottom-0 left-60 right-0 top-0 '
+            className='lg:flex absolute bottom-0 left-40 right-0 top-0 '
           ></motion.div>
       <div className='container mx-auto h-full relative'>
         {/* text & img wrapper */}
@@ -52,19 +52,19 @@ const Home = () => {
             </Link>
           </motion.div>
           {/* image */}
-          <div className='flex justify-end max-h-96 lg:max-h-56'>
+          <div className='scale-100 flex justify-end position:fixed bottom-0 max-h-max lg:max-h-max '>
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0 }}
               transition={transition1}
-              className=' '
+              className=' relative lg:-right-40 overflow-hidden'
             >
               <motion.img
                 whileHover={{ scale: 1.1 }}
                 transition={transition1}
-                src={WomanImg}
-                alt=' relative lg:-right-40 overflow-hidden '
+                src={JacobImg}
+                alt=' '
               />
             </motion.div>
           </div>
