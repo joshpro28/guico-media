@@ -26,11 +26,11 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '100%' }}
             transition={transition1}
-            className='lg:flex absolute bottom-0 left-40 right-0 top-0 '
+            className=' lg:flex absolute bottom-0 left-40 right-0 top-0 '
           ></motion.div>
-      <div className='  overflow-y-scrolasdfll lg:overflow-hidden container mx-auto h-full relative'>
+      <div className=' container mx-auto h-full overflow-y-scroll lg:overflow-hidden overflow-x-hidden'>
         {/* text & img wrapper */}
-        <div className='  flex flex-col justify-center'>
+        <div className=' flex flex-col justify-center'>
           {/* text */}
           <motion.div
             initial={{ opacity: 0, y: '-50%' }}
@@ -58,7 +58,7 @@ const Home = () => {
               animate={{ scale: 1 }}
               exit={{ scale: 0 }}
               transition={transition1}
-              className=' relative lg:-right-40 '
+              className=' relative lg:right-0 '
             >
               <motion.img
                 whileHover={{ scale: 1.1 }}

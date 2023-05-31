@@ -19,7 +19,7 @@ const Contact = () => {
       transition={transition1}
       className='section bg-white'
     >
-      <div className='container mx-auto h-full'>
+      <div className='overflow-y-scroll lg:overflow-hidden container mx-auto h-full'>
         <div className='flex flex-col lg:flex-row h-full items-center justify-start pt-36 gap-x-8 text-center lg:text-left'>
           {/* bg */}
           <motion.div
@@ -27,7 +27,7 @@ const Contact = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '100%' }}
             transition={transition1}
-            className='hidden lg:flex bg-[#f9df83] absolute bottom-0 left-0 right-0 top-72 -z-10'
+            className=' lg:flex bg-[#f9df83] absolute inset-x-0 bottom-0 h-72 lg:h-3/5 -z-10'
           ></motion.div>
           {/* text & form */}
           <div
@@ -69,9 +69,9 @@ const Contact = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '100%' }}
             transition={{ transition: transition1, duration: 1.5 }}
-            className='lg:flex-1'
+            className='lg:flex-1 '
           >
-            <img src={JacobImg} alt='' />
+            <img src={JacobImg} alt='' className='h-[300px] lg:h-full'/>
           </motion.div>
         </div>
       </div>
