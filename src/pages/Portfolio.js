@@ -24,56 +24,58 @@ const Portfolio = () => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: '100%' }}
       transition={transition1}
-      className=''
+      className='section'
     >
-      <div className=' overflow-scroll md:overflow-hidden container mx-auto h-full relative '>
-        <div className='    h-full items-center justify-start gap-x-10 text-center pt-24 lg:pt-36 pb-8'>
+    <div
+        onMouseEnter={mouseEnterHandler}
+        onMouseLeave={mouseLeaveHandler}
+        className=' overflow-y-scroll overflow-x-hidden md:overflow-hidden container mx-auto h-full relative'
+      >
+        {/* text & img wrapper */}
+        <div className='container flex flex-col lg:flex-row items-center justify-center gap-x-24 text-center lg:text-left '>
+          
           {/* text */}
           <motion.div
-            onMouseEnter={mouseEnterHandler}
-            onMouseLeave={mouseLeaveHandler}
             initial={{ opacity: 0, y: '-80%' }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '-80%' }}
             transition={transition1}
-            className=''
+            className='w-full pt-32 pb-14 lg:pt-32 lg:w-auto z-10 flex flex-col justify-center items-center'
           >
-            <h1 className='h1'>Portfolio</h1>
-            
-          </motion.div>
-          {/* image grid */}
+            <h1 className=' h1 pb-10'>Portfolio</h1>
+            {/* image grid */}
           
-          <div class=" h-full flex-col bg-green-200  flex flex-1 ">
+          <div class="  flex-col flex flex-1 ">
           <div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className=' grid grid-cols-2 md:grid-cols-4 gap-4 flex-1'
+            className='  grid grid-cols-2 md:grid-cols-4 gap-4 flex-1'
           >
             {/* image */}
             <div className='row-span-2 '>
               <img
-                className='object-cover h-full hover:scale-110 transition-all duration-500'
+                className='object-cover  hover:scale-110 transition-all duration-500'
                 src={Skateboard}
                 alt=''
               />
             </div>
             <div className='row-span-2   '>
               <img
-                className=' object-cover h-full hover:scale-110 transition-all duration-500'
+                className=' object-cover hover:scale-110 transition-all duration-500'
                 src={Christian}
                 alt=''
               />
             </div>
             <div className='row-span-1  '>
               <img
-                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
+                className='object-cover lg:h-[220px] hover:scale-110 transition-all duration-500'
                 src={Couple}
                 alt=''
               />
             </div>
             <div className='row-span-1  '>
               <img
-                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
+                className='object-cover lg:h-[220px] hover:scale-110 transition-all duration-500'
                 src={Barnettes}
                 alt=''
               />
@@ -82,30 +84,35 @@ const Portfolio = () => {
             
             <div className='row-span-1  '>
               <img
-                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
+                className='object-cover lg:h-[220px] hover:scale-110 transition-all duration-500'
                 src={Boat}
                 alt=''
               />
             </div>
-            <div className='row-span-1 max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px]  '>
+            <div className='row-span-1 '>
               <img
-                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
+                className='object-cover lg:h-[220px] hover:scale-110 transition-all duration-500'
                 src={Snow}
                 alt=''
               />
             </div>
             
-            {/* <div className='col-span-2'>
+            <div className='col-span-2'>
               <img
-                className='object-cover h-full lg:h-[220px] hover:scale-110 transition-all duration-500'
+                className='object-cover lg:h-[220px] hover:scale-110 transition-all duration-500'
                 src={Water}
                 alt=''
               />
-            </div> */}
             </div>
             </div>
-          </div>
+            </div>
+          </motion.div>
         </div>
+      </div>
+
+
+
+
       
     </motion.section>
   );
