@@ -23,7 +23,7 @@ const menuVariants = {
 const MobileNav = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <nav className='text-primary xl:hidden'>
+    <nav className='text-primary lg:hidden'>
       {/* nav open button */}
       <div
         onClick={() => setOpenMenu(true)}

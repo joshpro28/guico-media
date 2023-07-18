@@ -14,7 +14,7 @@ const Socials = () => {
     <div
       onMouseEnter={mouseEnterHandler}
       onMouseLeave={mouseLeaveHandler}
-      className='hidden xl:flex ml-24'
+      className='hidden lg:flex ml-24'
     >
       <ul className='flex gap-x-4'>
         <li>
@@ -28,7 +28,7 @@ const Socials = () => {
           </a>
         </li>
         <li>
-          <a href='https://www.youtube.com/@JacobGuico' target='_blank' rel='noreferrer'>
+          <a href='https://www.youtube.com/@guicojacob' target='_blank' rel='noreferrer'>
             <ImYoutube />
           </a>
         </li>

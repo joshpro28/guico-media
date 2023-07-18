@@ -28,7 +28,7 @@ const Home = () => {
             transition={transition1}
             className=' lg:flex absolute bottom-0 left-40 right-0 top-0 '
           ></motion.div>
-      <div className=' container mx-auto h-full overflow-y-scroll lg:overflow-hidden overflow-x-hidden'>
+      <div className=' container mx-auto h-full no-scrollbar overflow-y-scroll lg:overflow-hidden overflow-x-hidden'>
         {/* text & img wrapper */}
         <div className=' flex flex-col justify-center'>
           {/* text */}
@@ -39,7 +39,7 @@ const Home = () => {
             transition={transition1}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className=' w-full pt-36 pb-14 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start'
+            className=' w-full pt-28 pb-10 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start'
           >
             <h1 className='h1'>
               photographer <br/> & film maker

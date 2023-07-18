@@ -23,10 +23,10 @@ const About = () => {
       <div
         onMouseEnter={mouseEnterHandler}
         onMouseLeave={mouseLeaveHandler}
-        className=' overflow-y-scroll lg:overflow-hidden container mx-auto h-full relative'
+        className=' no-scrollbar overflow-y-scroll lg:overflow-hidden container mx-auto h-full relative'
       >
         {/* text & img wrapper */}
-        <div className='container flex flex-col lg:flex-row items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16'>
+        <div className='container flex flex-col lg:flex-row items-center justify-center gap-x-24 text-center lg:text-left lg:pt-32'>
           
           {/* text */}
           <motion.div
@@ -34,17 +34,21 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '-80%' }}
             transition={transition1}
-            className='w-full pt-32 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'
+            className='w-full pt-28 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start lg:justify-items-start'
           >
             <h1 className=' h1'>About me</h1>
             <p className='mb-12 max-w-sm'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              <b> Exercitationem, veritatis.</b> Veritatis illum aut,
-              reprehenderit sed dolorem dolore.
-              <br />
-              <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Recusandae, iure! Ullam, dolore? Eligendi, quam mollitia.
+            Hi everyone! 
+            <br /> 
+            <br /> My name is Jacob Guico and I’m a photographer/videographer located in Richmond, VA. 
+            I take a lot of pride in the relationships I build with my clients. 
+            Not only do I want to make our time together memorable, but I want to give you the most professional and enjoyable experience. 
+            <br /> 
+            <br />The thing I love most about videography is that I get to capture moments and memories that last a lifetime by creating something that you will cherish forever. 
+            Whether it’s business related or something personal, I guarantee that you will be pleased with my services. 
+            Creating content for you that will leave you filled with excitement and joy. 
+            <br />
+            <br /> I’m looking forward to making amazing experiences with you!
             </p>
             <Link to={'/portfolio'} className='btn'>
               View my work

@@ -29,7 +29,7 @@ const Portfolio = () => {
     <div
         onMouseEnter={mouseEnterHandler}
         onMouseLeave={mouseLeaveHandler}
-        className=' overflow-y-scroll overflow-x-hidden md:overflow-hidden container mx-auto h-full relative'
+        className=' no-scrollbar overflow-y-scroll overflow-x-hidden md:overflow-hidden container mx-auto h-full relative'
       >
         {/* text & img wrapper */}
         <div className='container flex flex-col lg:flex-row items-center justify-center gap-x-24 text-center lg:text-left '>
@@ -40,9 +40,9 @@ const Portfolio = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: '-80%' }}
             transition={transition1}
-            className='w-full pt-32 pb-14 lg:pt-32 lg:w-auto z-10 flex flex-col justify-center items-center'
+            className='w-full pt-28 pb-14 lg:pt-24 lg:w-auto z-10 flex flex-col justify-center items-center'
           >
-            <h1 className=' h1 pb-10'>Portfolio</h1>
+            <h1 className=' h1 pb-6'>Portfolio</h1>
             {/* image grid */}
           
           <div class="  flex-col flex flex-1 ">
@@ -80,7 +80,7 @@ const Portfolio = () => {
                 alt=''
               />
             </div>
-            <iframe className='row-span-2 col-span-2 ' width="100%" height="100%" src="https://www.youtube.com/embed/3Hcp2zQmg0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe className='object-cover h-[440px]  row-span-2 col-span-2 lg:row-span-2 lg:col-span-2 ' width="100%" height="100%" src="https://www.youtube.com/embed/3Hcp2zQmg0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             
             <div className='row-span-1  '>
               <img
@@ -90,14 +90,6 @@ const Portfolio = () => {
               />
             </div>
             <div className='row-span-1 '>
-              <img
-                className='object-cover lg:h-[220px] hover:scale-110 transition-all duration-500'
-                src={Snow}
-                alt=''
-              />
-            </div>
-            
-            <div className='col-span-2'>
               <img
                 className='object-cover lg:h-[220px] hover:scale-110 transition-all duration-500'
                 src={Water}

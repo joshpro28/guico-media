@@ -19,8 +19,8 @@ const Contact = () => {
       transition={transition1}
       className='section bg-white'
     >
-      <div className='overflow-y-scroll lg:overflow-hidden container mx-auto h-full'>
-        <div className='flex flex-col lg:flex-row h-full items-center justify-start pt-36 gap-x-8 text-center lg:text-left'>
+      <div className=' no-scrollbar overflow-y-scroll lg:overflow-hidden container mx-auto h-full'>
+        <div className='flex flex-col lg:flex-row h-full items-center justify-start pt-28 gap-x-8 text-center lg:text-left'>
           {/* bg */}
           <motion.div
             initial={{ opacity: 0, y: '100%' }}
