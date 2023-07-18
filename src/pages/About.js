@@ -38,7 +38,7 @@ const About = () => {
           >
             <h1 className=' h1'>About me</h1>
             <p className='mb-12 max-w-sm'>
-            Hi everyone! 
+            Hi Everyone! 
             <br /> 
             <br /> My name is Jacob Guico and I’m a photographer/videographer located in Richmond, VA. 
             I take a lot of pride in the relationships I build with my clients. 
