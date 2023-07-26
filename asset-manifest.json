@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5294958f.css",
-    "main.js": "/static/js/main.7a0d096e.js",
+    "main.css": "/static/css/main.6e1d2216.css",
+    "main.js": "/static/js/main.5ba7d964.js",
     "static/media/Christian.jpeg": "/static/media/Christian.4f68791039b4b0d1a9ab.jpeg",
     "static/media/Couple.jpeg": "/static/media/Couple.8e9479372c5a24199380.jpeg",
     "static/media/Water.jpeg": "/static/media/Water.e9b8464d9ff2cf6f7e37.jpeg",
     "static/media/Boat.jpeg": "/static/media/Boat.7bedfc41526b7b592c50.jpeg",
     "static/media/Barnettes.jpeg": "/static/media/Barnettes.b0ae7e25ab3b003359c1.jpeg",
-    "static/media/jacob-with-phone.png": "/static/media/jacob-with-phone.47b679d2452075265f2d.png",
+    "static/media/jacob-with-phone-dark.png": "/static/media/jacob-with-phone-dark.6b76abca9aa5273a86a1.png",
     "static/media/jacob-climbing.jpg": "/static/media/jacob-climbing.08d53188236441d14e9e.jpg",
     "static/media/jacob-with-camera.png": "/static/media/jacob-with-camera.c271c65c2d50e756a5e3.png",
     "static/media/Skateboard.jpeg": "/static/media/Skateboard.2e8c8af767b07534fd0e.jpeg",
-    "static/media/logo.svg": "/static/media/logo.826cb5f922b3277a89a21308bace338f.svg",
+    "static/media/guico-media-full-logo.png": "/static/media/guico-media-full-logo.773b1ade7ea05df59cab.png",
     "index.html": "/index.html",
-    "main.5294958f.css.map": "/static/css/main.5294958f.css.map",
-    "main.7a0d096e.js.map": "/static/js/main.7a0d096e.js.map"
+    "main.6e1d2216.css.map": "/static/css/main.6e1d2216.css.map",
+    "main.5ba7d964.js.map": "/static/js/main.5ba7d964.js.map"
   },
   "entrypoints": [
-    "static/css/main.5294958f.css",
-    "static/js/main.7a0d096e.js"
+    "static/css/main.6e1d2216.css",
+    "static/js/main.5ba7d964.js"
   ]
 }
