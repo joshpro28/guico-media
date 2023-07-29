@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.05af64b8.css",
-    "main.js": "/static/js/main.6fed373f.js",
+    "main.js": "/static/js/main.41d54e97.js",
     "static/media/Christian.jpeg": "/static/media/Christian.4f68791039b4b0d1a9ab.jpeg",
     "static/media/Couple.jpeg": "/static/media/Couple.8e9479372c5a24199380.jpeg",
     "static/media/Water.jpeg": "/static/media/Water.e9b8464d9ff2cf6f7e37.jpeg",
@@ -14,10 +14,10 @@
     "static/media/cropped-logo.jpg": "/static/media/cropped-logo.5fb2ea200163ced3384b.jpg",
     "index.html": "/index.html",
     "main.05af64b8.css.map": "/static/css/main.05af64b8.css.map",
-    "main.6fed373f.js.map": "/static/js/main.6fed373f.js.map"
+    "main.41d54e97.js.map": "/static/js/main.41d54e97.js.map"
   },
   "entrypoints": [
     "static/css/main.05af64b8.css",
-    "static/js/main.6fed373f.js"
+    "static/js/main.41d54e97.js"
   ]
 }
